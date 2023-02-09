@@ -14,7 +14,8 @@
 2.  Spring Batch에서 하나의 Job은 여러 개의 step을 가질 수 있고, 하나의 스텝은 reader, processor, writer로
     구성되어 있다.
 
-        2-1 Job : Step -> 1 : M - Step -> reader, processor, writer
+        2-1 Job : Step -> 1 : M 
+        2-2 Step -> reader, processor, writer
 
 3. @JobScope와 @StepScope
     - 스프링의 기본  Scope인 싱글톤 방식과는 대치되는 역할인데, Bean의 생성 시점이 스프링 애플리케이션이 실행되는 시점이 아닌 @JobScope, @StepScope가 명시된 메서드가 실행될 때까지 지연 시킬 수 있다.
