@@ -12,4 +12,4 @@
 2.  Spring Batch에서 하나의 Job은 여러 개의 step을 가질 수 있고, 하나의 스텝은 reader, processor, writer로
     구성되어 있다.
 
-- Job : Step -> 1 : M - Step -> reader, processor, writer
+        2-1 Job : Step -> 1 : M - Step -> reader, processor, writer
