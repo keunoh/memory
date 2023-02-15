@@ -1,4 +1,2 @@
-# TIL
-what I learned?
-
-Multi Readme
+✔ Today What I Learned    
+✔ Error Catcher
