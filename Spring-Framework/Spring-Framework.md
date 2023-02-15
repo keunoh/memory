@@ -4,4 +4,4 @@
            No serializer found for class com.example.interfaces.dto.SampleDto 
            and no properties discovered to create BeanSerializer 
           (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS)
-        1-2 해결방안 RVO에 Getter, Setter를 설정해준다.
+        1-2 해결방안 : RVO에 Getter, Setter를 설정해준다.
