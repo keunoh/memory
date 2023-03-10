@@ -24,4 +24,10 @@ UNION ALL하지 않고, In-List와 Group by 구분코드를 이용해서 최상 
       HashCode Method는 해당 객체의 유니크한 정수를 반환하고, 그 정수는 그 객체의 키이다.
       만약, 해시코드 또한 오버라이딩 하지 않는다면 결국에는 예상외의 에러를 만날 수 있다.
       예를들면, HashSet에 해당 객체를 넣어 나중에 되찾으려 할때 HashSet은 그 객체를 반환할 수 없을수도
-      있을 것이다. equals로 동일하다 판단된 객체의 해시코드 값이 다르다면 값을 찾기 어렵기 때문이다.
+      있을 것이다. equals로 동일하다 판단된 객체의 해시코드 값이 다르다면 값을 찾기 어렵기 때문이다.   
+✔ 무엇이 RESTful한 것일 까?   
+- Pretty URLs like /employees/3 aren't REST.
+- Merely using GET, POST, etc. isn't REST.
+- Having all the CRUD operations laid out isn't REST.   
+이것은 RPC(Remote Procedure Call)이다. REST와 헷갈리면 안 된다.
+- API가 hypertext로 드라이빙되지 않으면 RESTful이 될 수 없다.
