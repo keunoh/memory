@@ -31,3 +31,10 @@ UNION ALL하지 않고, In-List와 Group by 구분코드를 이용해서 최상 
 - Having all the CRUD operations laid out isn't REST.   
 이것은 RPC(Remote Procedure Call)이다. REST와 헷갈리면 안 된다.
 - API가 hypertext로 드라이빙되지 않으면 RESTful이 될 수 없다.
+
+✔ HyperText vs HyperMedia
+- Spring HATEOAS
+- hyperText는 유저를 다른 document로 이동 시키거나, 해당 document의 다른 부분들로 이동시키는 것이다.
+- hyperMedia는 hyperText의 확장 개념으로써 텍스트 뿐만 아니라 이미지, 오디오, 비디오 등등 사용자에게 여러가지 상호작용을 제공한다.
+- What is the point of adding all these links? It makes it possible to evolve REST services over time. Existing links can be maintained while new links can be added in the future. Newer clients may take advantage of the new links, while legacy clients can sustain themselves on the old links. This is especially helpful if services get relocated and moved around. As long as the link structure is maintained, clients can STILL find and interact with things.
+- https://spring.io/guides/tutorials/rest/  -> 검색 : Evolving REST APIs
