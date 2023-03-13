@@ -38,3 +38,10 @@ UNION ALL하지 않고, In-List와 Group by 구분코드를 이용해서 최상 
 - hyperMedia는 hyperText의 확장 개념으로써 텍스트 뿐만 아니라 이미지, 오디오, 비디오 등등 사용자에게 여러가지 상호작용을 제공한다.
 - What is the point of adding all these links? It makes it possible to evolve REST services over time. Existing links can be maintained while new links can be added in the future. Newer clients may take advantage of the new links, while legacy clients can sustain themselves on the old links. This is especially helpful if services get relocated and moved around. As long as the link structure is maintained, clients can STILL find and interact with things.
 - https://spring.io/guides/tutorials/rest/  -> 검색 : Evolving REST APIs
+
+✔ 내 중심이 서있지 않으면 남들과 비교가 시작된다.
+- 내가 이것을 하는 이유를 항상 기억하기 바란다.
+- 존재하는지도 확실하지 않은 남들의 시선이나 기대를 위해 무언가를 한다면 그 의미는 '무'이다.
+- 충분히 여유를 가지고 즐거움을 느낄 것.
+- 배움이라는 것은 끝이 없음을 이미 인지하고 있기 때문에 긴 여행처럼 생각하며 한 발자국씩 나아가면 그만이다.
+- 단계별로 나누어서 가장 기본이 되는 뼈대를 찾는 연습을 계속해서 하도록 하자.
