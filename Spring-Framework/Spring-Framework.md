@@ -31,3 +31,12 @@
                                          }
                     이런식으로 주석 처리가 되어있는 상태에서 api 요청을 하게되면 
                     JSON parse error가 발생할 수 있으니 주석 삭제해줄 것
+4. Spring Controller에서 RequestMapping(@Get.., @Post.., ...)등이 중복되면 발생하는 오류
+```
+4-1 initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException:
+ Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping':
+  Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. 
+  Cannot map 'MyController' method 
+4-2 Caused by: java.lang.IllegalStateException: Ambiguous mapping.
+4-3 해결방안 : 해당 컨트롤러를 체크해서 uri이 중복되는 곳이 있는지 확인한다.
+```
